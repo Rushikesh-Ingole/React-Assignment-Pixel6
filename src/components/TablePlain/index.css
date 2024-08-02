@@ -1,0 +1,66 @@
+table.scrolldown {
+  width: 100%;
+
+  /* border-collapse: collapse; */
+  border-spacing: 0;
+  border: 1x solid black;
+}
+
+/* To display the block as level element */
+table.scrolldown tbody,
+table.scrolldown thead {
+  display: block;
+}
+
+thead tr th {
+  height: 40px;
+  line-height: 40px;
+}
+
+table.scrolldown tbody {
+  /* Set the height of table body */
+  height: 200px;
+
+  /* Set vertical scroll */
+  overflow-y: auto;
+
+  /* Hide the horizontal scroll */
+  overflow-x: hidden;
+}
+
+tbody {
+  border-top: 1px solid black;
+}
+
+tbody td,
+thead th {
+  width: 200px;
+  /* border: 1px solid black; */
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: rgba(146, 229, 201, 0.249);
+}
+
+.table-container {
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.active {
+  color: red;
+}
